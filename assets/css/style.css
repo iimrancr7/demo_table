@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.main_aria{
+    font-family: "Figtree", sans-serif;
+    padding: 25px;
+    overflow: hidden;
+
+}
+caption{
+    color: rgb(0, 81, 161);
+    padding-bottom: 20px;
+    font-size: 24px;
+    text-align: start;
+    font-weight: 700;
+}
+table{
+    border-collapse: collapse;
+    border: 2px solid gray;
+    max-width: 585px;
+    margin: 0 auto;
+}
+
+th,td{
+    border:1px solid lightgrey;
+}
+th{
+    font-size: 14px;
+    padding: 6px 0;
+    min-width: 114px;
+}
+td{
+    font-size: 12px;
+    padding: 10px 15px;
+    text-align:center;
+}
+.head0{
+    text-align: right;
+    padding-right: 20px;
+    min-width: 126px;
+}
+.head1{
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    font-weight:500;
+    vertical-align:top;
+    
+}
+dd{
+    font-size: 10px;
+    text-align: center;
+    height: 90px;
+    padding-top: 40px;
+    background: #EDF4FC;
+    border: 1px dashed gray; 
+}
+.tabled{
+    vertical-align: text-top;
+}
+.table_head{
+    background: #EDF4FC;
+}
